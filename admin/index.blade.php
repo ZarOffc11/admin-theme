@@ -6,14 +6,6 @@
 
 @section('content-header')
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-
-    <div class="nebula-header">
-        <h1>Dashboard Utama<small>Statistik real-time infrastruktur.</small></h1>
-        <ol class="breadcrumb">
-            <li><a href="{{ route('admin.index') }}">Admin</a></li>
-            <li class="active">Index</li>
-        </ol>
-    </div>
 @endsection
 
 @section('content')
@@ -21,7 +13,7 @@
     $users = DB::table('users')->count();
     $servers = DB::table('servers')->count();
     $nodes = DB::table('nodes')->count();
-    $provider = "FR3NEWERA MOD";
+    $provider = "ZarProject";
 
     // System Information
     $uptime = trim(shell_exec("uptime -p"));
@@ -295,10 +287,10 @@
         <div class="nebula-card stat-box">
             <div class="stat-content">
                 <h3 style="font-size: 20px; line-height: 28px;">{{ $provider }}</h3>
-                <p>Provider</p>
+                <p>Creator</p>
             </div>
             <div class="stat-icon icon-danger">
-                <span class="material-icons-outlined">shield</span>
+                <span class="material-icons-outlined">logo_dev</span>
             </div>
         </div>
     </div>
@@ -350,7 +342,7 @@
                     <div class="resource-item">
                         <div class="resource-meta">
                             <span style="display:flex; align-items:center;">
-                                <span class="material-icons-outlined" style="font-size:16px; margin-right:5px;">hard_drive</span>
+                                <span class="material-icons-outlined" style="font-size:16px; margin-right:5px;">storage</span>
                                 Disk Usage
                             </span>
                             <span class="resource-value text-{{ $disk_percent > 85 ? 'danger' : 'success' }}" id="res-disk-text">
