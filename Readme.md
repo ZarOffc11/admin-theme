@@ -26,7 +26,7 @@
 
 | Admin Dashboard | Resource Monitor |
 |:---:|:---:|
-| ![Admin Dashboard](https://via.placeholder.com/400x200?text=Admin+Dashboard+Preview) | ![Resource Monitor](https://files.cloudkuimages.guru/images/fa066f6d0c18.jpg) |
+| ![Admin Dashboard](https://files.cloudkuimages.guru/images/2a0b53cdcc6a.jpg) | ![Resource Monitor](https://files.cloudkuimages.guru/images/fa066f6d0c18.jpg) |
 
 ---
 
