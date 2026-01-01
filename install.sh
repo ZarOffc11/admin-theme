@@ -195,7 +195,7 @@ install_theme() {
     
     # Detect the extracted folder name (Github usually names it repo-main)
     # We find the first directory inside temp
-    EXTRACTED_DIR=$(find . -maxdepth 1 -type d -name "admin-theme-*" | head -n 1)
+    EXTRACTED_DIR=$(find . -maxdepth 1 -type d -name "ZarProject-*" | head -n 1)
     
     if [ -d "$EXTRACTED_DIR" ]; then
         cd "$EXTRACTED_DIR"
