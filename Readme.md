@@ -35,7 +35,7 @@
 Installation is fully automated. Simply run the following command on your Pterodactyl server:
 
 ```bash
-bash <(curl -s [https://raw.githubusercontent.com/ZarOffc11/admin-theme/main/install.sh](https://raw.githubusercontent.com/ZarOffc11/admin-theme/main/install.sh))
+bash <(curl -s https://raw.githubusercontent.com/ZarOffc11/admin-theme/main/install.sh)
 ```
 
 This script will automatically backup your old views and apply the Nebula Grid theme to your Admin Panel.
